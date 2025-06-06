@@ -1,0 +1,55 @@
+body{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+   
+    background-color: #ffffffd2; 
+    color: #fa3d3d; 
+    font-size: 100%; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    } 
+   
+    h1{ 
+    font-size: 200%; 
+   } 
+   
+    main{ 
+    color: #ff0998; 
+    width: 80%; 
+    padding: 1.5em; 
+    background-color: #ffc5d8;
+    } 
+
+    footer{ 
+    text-align: center; 
+    color: ff1ea1; 
+    font-size: 90%;
+    position: fixed;
+    bottom: 0;
+    } 
+    ul{ 
+    display: flex; 
+    justify-content: space-evenly; 
+    list-style: none;
+    font-size: 105%;
+    }
+   
+   img{
+    max-width:270px
+   }
+
+   nav{
+    background-color: red;
+    padding: 1em;
+    width: 100%;
+    color: rgb(255, 255, 255);
+   }
+
+a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+@media screen {
+  
+}
